@@ -1,0 +1,13 @@
+# Launch gate — Artificialis Intellectum™ payment-to-access lessons
+- [ ] Per-client authorization, security and data isolation implemented and tested.
+- [ ] Stripe account, product, currency, amount, price, paid state and webhook signature verified.
+- [ ] Capacity, last-seat concurrency, refunds, retries and duplicate webhook safeguards tested.
+- [ ] The actual purchaser can access their correct app; unauthorised persons cannot.
+- [ ] Gift entitlement granted within separate app, not merely linked.
+- [ ] Brevo connection configured by owner: authorized account, verified sender, safe secret storage and active credentials.
+- [ ] Correct confirmation email has logo, boarding pass, buyer name/seat, valid survey URL, correct app and verified gift.
+- [ ] Preflight incomplete reminder, day-before, hour-before and replay automation tested and logged.
+- [ ] Private intake only accessible to instructor and purchaser within their tenant.
+- [ ] Nurture sends only after explicit opt-in; unsubscribe and bought-upgrade suppression tested.
+- [ ] Provider message IDs, rate limits, retry/dedupe, bounces and errors monitored.
+- [ ] Owner explicitly approves live charges, published links and real sending.
