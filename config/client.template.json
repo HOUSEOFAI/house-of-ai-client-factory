@@ -1,0 +1,61 @@
+{
+  "client_id": "NEW_CLIENT",
+  "business_name": "",
+  "brand": {
+    "logo_asset_url": "",
+    "colors": {
+      "ink": "#111012",
+      "paper": "#F7F4EE",
+      "gold": "#D5B886"
+    }
+  },
+  "offer": {
+    "title": "",
+    "price_cents": null,
+    "currency": "usd",
+    "capacity": null,
+    "timezone": "America/New_York",
+    "starts_at": "",
+    "ends_at": ""
+  },
+  "email": {
+    "provider": "brevo",
+    "sender_address": "",
+    "sender_name": "",
+    "reply_to": "",
+    "verified_sender": false,
+    "provider_credentials_secret_name": "BREVO_API_KEY",
+    "transactional_enabled": false,
+    "marketing_enabled": false,
+    "marketing_opt_in_required": true,
+    "template_ids": {
+      "purchase_confirmation": null,
+      "preflight_reminder": null,
+      "day_before": null,
+      "hour_before": null,
+      "replay": null,
+      "nurture_1": null,
+      "nurture_2": null,
+      "nurture_3": null,
+      "nurture_4": null
+    }
+  },
+  "stripe": {
+    "account_reference": "",
+    "test_price_id": "",
+    "live_price_id": "",
+    "payment_live_enabled": false
+  },
+  "links": {
+    "published_app": "",
+    "preflight": "",
+    "meeting": "",
+    "replay": "",
+    "gift": "",
+    "upgrade": ""
+  },
+  "release": {
+    "tested": false,
+    "owner_approved": false
+  }
+}
